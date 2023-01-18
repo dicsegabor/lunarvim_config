@@ -6,8 +6,7 @@
 --     },
 -- }
 
-lvim.plugins = {
-  {
-    'preservim/tagbar',
-  }
-}
+table.insert(lvim.plugins, {
+  "p00f/clangd_extensions.nvim",
+  "preservim/tagbar"
+})
