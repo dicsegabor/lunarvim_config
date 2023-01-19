@@ -2,7 +2,7 @@ reload "user.plugins"
 reload "user.options"
 reload "user.keymaps"
 reload "user.autocommands"
--- reload "user.lsp.init"
+reload "user.lsp.init"
 
 -- Individual plugins
 reload "user.git"
