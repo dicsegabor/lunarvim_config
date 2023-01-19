@@ -1,3 +1,5 @@
+require('dap-python').setup('~/.virtualenvs/debugpy/bin/python')
+
 -- install codelldb with :MasonInstall codelldb
 -- configure nvim-dap (codelldb)
 lvim.builtin.dap.on_config_done = function(dap)
@@ -14,6 +16,7 @@ lvim.builtin.dap.on_config_done = function(dap)
     },
   }
 
+
   dap.configurations.cpp = {
     {
       name = "Launch file",
@@ -29,9 +32,9 @@ lvim.builtin.dap.on_config_done = function(dap)
       end,
       cwd = "${workspaceFolder}",
       stopOnEntry = false,
+      sourceLanguages = { "c", "cpp" },
     },
   }
-
   dap.configurations.c = dap.configurations.cpp
-end
 
+end
