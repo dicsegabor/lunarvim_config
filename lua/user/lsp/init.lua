@@ -4,13 +4,23 @@ if not status_ok then
 end
 
 require "user.lsp.settings.clangd"
+require "user.lsp.settings.sumneko-lua"
+require "user.lsp.settings.pyright"
+require "user.lsp.settings.jsonls"
+
+-- local status_ok, lsp_manager = pcall(require, "lvim.lsp.manager")
+-- if not status_ok then
+--   return
+-- end
 
 -- local servers = {
 --   "clangd",
+--   "sumneko-lua",
+--   "pyright",
+--   "jsonls",
 -- }
 
--- vim.list_extend(lvim.lsp.automatic_configuration.skipped_servers, servers)
-
 -- for server in servers do
---   require("user.lsp.settings." .. server)
+--   local opts = require("user.lsp.settings." .. server)
+--   lsp_manager.setup(server, opts)
 -- end

@@ -194,4 +194,4 @@ local opts = {
   },
 }
 
-return opts
+require("lvim.lsp.manager").setup("jsonls", opts)

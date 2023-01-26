@@ -1,4 +1,4 @@
-return {
+local opts = {
   settings = {
     python = {
       analysis = {
@@ -7,3 +7,5 @@ return {
     },
   },
 }
+
+require("lvim.lsp.manager").setup("pyright", opts)
