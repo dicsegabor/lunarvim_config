@@ -7,6 +7,7 @@ require "user.lsp.settings.clangd"
 require "user.lsp.settings.sumneko-lua"
 require "user.lsp.settings.pyright"
 require "user.lsp.settings.jsonls"
+require "user.lsp.settings.rust-tools"
 
 -- local status_ok, lsp_manager = pcall(require, "lvim.lsp.manager")
 -- if not status_ok then

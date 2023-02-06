@@ -10,6 +10,7 @@ lvim.builtin.treesitter.ensure_installed = {
   "tsx",
   "css",
   "rust",
+  "toml",
   "java",
   "yaml",
   "make",
