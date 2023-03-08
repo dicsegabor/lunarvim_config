@@ -11,4 +11,7 @@ table.insert(lvim.plugins, {
   "preservim/tagbar",
   "simrat39/rust-tools.nvim",
   "nvim-treesitter/nvim-treesitter",
+  "jose-elias-alvarez/null-ls.nvim",
+  "MunifTanjim/prettier.nvim",
+  "kylechui/nvim-surround",
 })
