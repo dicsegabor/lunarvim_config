@@ -13,7 +13,10 @@ local custom_on_attach = function(client, bufnr)
 end
 
 local opts = {
-  on_attach = custom_on_attach,
+  server = {
+    on_attach = custom_on_attach,
+  }
 }
 
-require("lvim.lsp.manager").setup("rust-tools", opts)
+-- require("lvim.lsp.manager").setup("rust-tools", opts)
+rt.setup(opts)

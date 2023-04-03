@@ -4,7 +4,7 @@ if not status_ok then
 end
 
 formatters.setup {
-  {
+     {
     command = "prettier",
     filetypes = {},
     "css",
@@ -15,5 +15,6 @@ formatters.setup {
     "json",
     "scss",
     "less",
+    "lua",
   },
 }
