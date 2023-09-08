@@ -12,4 +12,6 @@ table.insert(lvim.plugins, {
   "simrat39/rust-tools.nvim",
   "MunifTanjim/prettier.nvim",
   "kylechui/nvim-surround",
+  "sharkdp/fd",
+  "linux-cultist/venv-selector.nvim",
 })
