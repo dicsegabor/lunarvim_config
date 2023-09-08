@@ -1,4 +1,4 @@
-reload "user.plugins"
+reload "user.pluins"
 reload "user.options"
 reload "user.keymaps"
 reload "user.autocommands"
