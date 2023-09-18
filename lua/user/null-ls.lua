@@ -4,17 +4,22 @@ if not status_ok then
 end
 
 formatters.setup {
-     {
+  {
+    name = "prettier",
     command = "prettier",
-    filetypes = {},
-    "css",
-    "javascript",
-    "javascriptreact",
-    "typescript",
-    "typescriptreact",
-    "json",
-    "scss",
-    "less",
-    "lua",
+    args = { "--print-width", "100" },
+    filetypes = {
+      "css",
+      "javascript",
+      "javascriptreact",
+      "typescript",
+      "typescriptreact",
+      "json",
+      "scss",
+      "less",
+      "lua",
+      "python",
+      "rust",
+    },
   },
 }
