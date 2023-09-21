@@ -14,4 +14,7 @@ table.insert(lvim.plugins, {
   "kylechui/nvim-surround",
   "sharkdp/fd",
   "linux-cultist/venv-selector.nvim",
+  "mfussenegger/nvim-dap-python",
+  "nvim-neotest/neotest",
+  "nvim-neotest/neotest-python",
 })
