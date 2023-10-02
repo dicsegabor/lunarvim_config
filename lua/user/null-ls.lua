@@ -21,6 +21,7 @@ formatters.setup({
 	},
 	{
 		name = "black",
+		command = "black -l 80 --preview",
 	},
 	{ command = "stylua", filetypes = { "lua" } },
 	{ command = "rustfmt", filetypes = { "rust" } },

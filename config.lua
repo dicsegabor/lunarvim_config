@@ -3,6 +3,7 @@ reload("user.options")
 reload("user.keymaps")
 reload("user.autocommands")
 reload("user.lsp.init")
+reload("user.dap.init")
 
 -- Individual plugins
 reload("user.git")
@@ -13,3 +14,4 @@ reload("user.whichkey")
 reload("user.toggleterm")
 reload("user.luasnip")
 reload("user.nvim-surround.nvim-surround")
+reload("user.venv-selector")
