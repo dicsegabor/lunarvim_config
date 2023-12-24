@@ -16,4 +16,5 @@ table.insert(lvim.plugins, {
 	"mfussenegger/nvim-dap",
 	"mfussenegger/nvim-dap-python",
 	"linux-cultist/venv-selector.nvim",
+	"tomblind/local-lua-debugger-vscode",
 })

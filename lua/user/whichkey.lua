@@ -1,5 +1,8 @@
+local Log = require("lvim.core.log")
+
 local status_ok, which_key = pcall(require, "which-key")
 if not status_ok then
+	Log:error("Module 'which_key' not found.")
 	return
 end
 

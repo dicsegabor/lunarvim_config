@@ -2,11 +2,11 @@ reload("user.plugins")
 reload("user.options")
 reload("user.keymaps")
 reload("user.autocommands")
+reload("user.commands")
 reload("user.lsp.init")
 reload("user.dap.init")
 
 -- Individual plugins
-reload("user.git")
 reload("user.treesitter")
 reload("user.null-ls")
 reload("user.tagbar")
